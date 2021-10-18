@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc ./Main.ts --target ESNext --outDir . --moduleResolution node --module commonjs",
+    "start": "node ./Main.js --stack-size=1024mb"
   },
   "keywords": [],
   "author": "",
