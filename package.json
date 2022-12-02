@@ -2,7 +2,6 @@
   "name": "abc117",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "npx tsc ./Main.ts --target ESNext --outDir . --moduleResolution node --module commonjs",
     "start": "node ./Main.js --stack-size=1024mb"
